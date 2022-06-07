@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(120, 193, 221);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 40px;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+#gatos {
+    width: 60%;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+
+button {
+    width: 8rem;
+    height: 3rem;
+    font-size: 20px;
+    
+}
+
+button:hover {
+    background-color: rgb(241, 237, 2);
+    cursor: pointer;
+
+}
